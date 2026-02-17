@@ -39,6 +39,16 @@ To reproduce results:
 ## Dashboard
 ![Dashboard](dashboard/dashboard_screenshots/dashboard.jpg)
 
+## Dashboard Development (Power BI)
+The dashboard was built in Power BI using the processed dataset (cleaned_sales.csv).
+Key steps included:
+1. Importing cleaned dataset into Power BI
+2. Creating DAX measures (Total Revenue, Total Orders, AOV, Total Customers)
+3. Designing visuals (line chart, bar chart, map, donut chart)
+4. Adding slicers for Date, Category, and Region
+5. Formatting layout with KPI cards and consistent theme
+The final dashboard is saved as 'sales_dashboard.pbix'
+
 ## How to Run
 1. Run data cleaning notebook
 2. Load processed data into database
