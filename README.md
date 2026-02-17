@@ -45,7 +45,7 @@ To reproduce results:
 ## Dashboard
 ![Dashboard](dashboard/dashboard_screenshots/dashboard.jpg)
 
-## Dashboard Development (Power BI)
+## Power BI - Dashboard Development 
 The dashboard was built in Power BI using the processed dataset (`cleaned_sales.csv`)
 Key steps included:
 1. Importing cleaned dataset into Power BI
