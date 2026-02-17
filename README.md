@@ -18,9 +18,8 @@ and product performance using SQL, Python, and Power BI.
 
 ## Data Files
 The cleaned dataset (`cleaned_sales.csv`) is not included in this repository due to size limits.
-
 To reproduce results:
-1. Download the Olist dataset from Kaggle
+1. Download the Olist dataset from Kaggle. Dataset Source: https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce
 2. Run `01_data_cleaning_eda.ipynb`
 3. The script generates `data/processed/cleaned_sales.csv`
 
@@ -33,6 +32,7 @@ To reproduce results:
 6. What are the top customers contributing to total revenue?
 
 ## Key Insights
+Insights were derived using SQL queries and Power BI visualizations.
 1. Revenue shows a clear monthly trend with noticeable seasonal spikes, indicating demand patterns that can be leveraged for targeted marketing and inventory planning.
 2. A small set of top product categories contributes the majority of revenue, suggesting a strong Pareto effect (80/20 rule) in product performance.
 3. Repeat customers generate significantly higher order value compared to new customers, highlighting retention as a key driver for long-term growth.
@@ -64,8 +64,9 @@ The final dashboard is saved as `sales_dashboard.pbix`
 ## How to Run
 1. Run data cleaning notebook
 2. Load processed data into database
-3. Execute SQL queries
-4. Open dashboard file
+3. Run SQL queries from `sql/queries.sql`
+4. Execute SQL queries
+5. Open dashboard file
 
 ## Future Improvements
 - Add profit margin analysis
