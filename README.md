@@ -47,7 +47,7 @@ Key steps included:
 3. Designing visuals (line chart, bar chart, donut chart)
 4. Adding slicers for Date, Category, and Region
 5. Formatting layout with KPI cards and consistent theme
-The final dashboard is saved as `sales_dashboard.pbix`
+The final dashboard is saved as `sales_dashboard.pbix`  `sales_dashboard.pbix`
 
 ## How to Run
 1. Run data cleaning notebook
