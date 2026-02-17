@@ -1,4 +1,5 @@
 # E-Commerce Sales & Customer Insights Dashboard
+This project demonstrates an end-to-end analytics workflow including data cleaning in Python, SQL-based KPI analysis, and interactive Power BI dashboard development to deliver actionable business insights.
 
 ## Overview
 Analyzed e-commerce sales data to uncover revenue trends, customer behavior,
@@ -73,5 +74,3 @@ The final dashboard is saved as `sales_dashboard.pbix`
 - Automate data pipeline using Airflow
 - Deploy dashboard using Power BI Service
 - Add forecasting model for revenue prediction
-
-This project demonstrates an end-to-end analytics workflow including data cleaning in Python, SQL-based KPI analysis, and interactive Power BI dashboard development to deliver actionable business insights.
