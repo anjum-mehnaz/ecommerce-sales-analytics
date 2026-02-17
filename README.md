@@ -4,9 +4,15 @@
 Analyzed e-commerce sales data to uncover revenue trends, customer behavior,
 and product performance using SQL, Python, and Power BI.
 
+## Project Structure
+- `notebooks/` → Data cleaning & preprocessing
+- `sql/` → SQL queries for KPI analysis
+- `dashboard/` → Power BI dashboard and screenshots
+- `data/` → Raw and processed datasets (not included in repo)
+
 ## Tech Stack
 - Python (pandas, numpy)
-- SQL (PostGreSQL)
+- SQL (PostgreSQL)
 - Power BI
 - GitHub
 
@@ -40,7 +46,7 @@ To reproduce results:
 ![Dashboard](dashboard/dashboard_screenshots/dashboard.jpg)
 
 ## Dashboard Development (Power BI)
-The dashboard was built in Power BI using the processed dataset (cleaned_sales.csv).
+The dashboard was built in Power BI using the processed dataset (`cleaned_sales.csv`).
 Key steps included:
 1. Importing cleaned dataset into Power BI
 2. Creating DAX measures (Total Revenue, Total Orders, AOV)
@@ -50,10 +56,21 @@ Key steps included:
 
 The final dashboard is saved as `sales_dashboard.pbix`
 
+## Key DAX Measures
+- Total Revenue = SUM(sales[revenue])
+- Total Orders = DISTINCTCOUNT(sales[order_id])
+- Average Order Value = DIVIDE([Total Revenue], [Total Orders])
+
 ## How to Run
 1. Run data cleaning notebook
 2. Load processed data into database
 3. Execute SQL queries
 4. Open dashboard file
+
+## Future Improvements
+- Add profit margin analysis
+- Automate data pipeline using Airflow
+- Deploy dashboard using Power BI Service
+- Add forecasting model for revenue prediction
 
 This project demonstrates an end-to-end analytics workflow including data cleaning in Python, SQL-based KPI analysis, and interactive Power BI dashboard development to deliver actionable business insights.
