@@ -46,7 +46,7 @@ To reproduce results:
 ![Dashboard](dashboard/dashboard_screenshots/dashboard.jpg)
 
 ## Dashboard Development (Power BI)
-The dashboard was built in Power BI using the processed dataset (`cleaned_sales.csv`).
+The dashboard was built in Power BI using the processed dataset (`cleaned_sales.csv`)
 Key steps included:
 1. Importing cleaned dataset into Power BI
 2. Creating DAX measures (Total Revenue, Total Orders, AOV)
